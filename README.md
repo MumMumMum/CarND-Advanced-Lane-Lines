@@ -12,16 +12,6 @@ The goals / steps of this project are the following:
 * Warp the detected lane boundaries back onto the original image.
 * Output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position.
 
-[//]: # (Image References)
-
-[image1]: ./examples/undistort_output.png "Undistorted"
-[image1]: ./result_cal/test_undist1.jpg "Undistorted"
-[image2]: ./test_images/test1.jpg "Road Transformed"
-[image3]: ./examples/binary_combo_example.jpg "Binary Example"
-[image4]: ./examples/warped_straight_lines.jpg "Warp Example"
-[image5]: ./examples/color_fit_lines.jpg "Fit Visual"
-[image6]: ./examples/example_output.jpg "Output"
-[video1]: ./project_video.mp4 "Video"
 
 
 Camera Calibration:
@@ -30,7 +20,7 @@ Camera Calibration:
 These corners are found out using CV2function findcornere and are stored in IMgpoint, the relative object points in 3 dimension are formed and used in CV2.calibratecamera.This function resturns calibration matrix which is used further to undistort other images.
 Results of camera calibration are as follows.
 
-
+![alt tag](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
 
 
 
